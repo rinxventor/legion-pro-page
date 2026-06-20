@@ -240,9 +240,16 @@ button { font-family: inherit; cursor: pointer; }
 /* Morphing highlight rectangle — glass wireframe */
 .morph-box {
   position: absolute; left: 0; top: 0; width: 0; height: 0; opacity: 0;
+<<<<<<< Updated upstream
   background: transparent;
   backdrop-filter: none;
   border-radius: 0; border: 2px solid rgba(255,255,255,0.2);
+=======
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 0; border: 2px solid #ffffff;
+>>>>>>> Stashed changes
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.35), inset 0 0 24px rgba(255, 255, 255, 0.05);
   transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
   pointer-events: none; z-index: 3;
