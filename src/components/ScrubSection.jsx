@@ -4,11 +4,11 @@ const TOTAL_FRAMES = 288;
 
 // Frame-index trigger thresholds + wireframe box geometry (% of stage).
 const STOPS = [
-  { frame: 20, box: { left: "45%", top: "15%", width: "40%", height: "50%" } },
-  { frame: 60, box: { left: "15%", top: "55%", width: "40%", height: "30%" } },
-  { frame: 110, box: { left: "30%", top: "30%", width: "35%", height: "20%" } },
-  { frame: 170, box: { left: "50%", top: "40%", width: "40%", height: "40%" } },
-  { frame: 260, box: { left: "20%", top: "50%", width: "80%", height: "40%" } },
+  { frame: 20, box: { left: "32%", top: "14%", width: "36%", height: "48%" } },
+  { frame: 60, box: { left: "18%", top: "54%", width: "64%", height: "26%" } },
+  { frame: 110, box: { left: "8%", top: "36%", width: "84%", height: "22%" } },
+  { frame: 170, box: { left: "28%", top: "16%", width: "44%", height: "62%" } },
+  { frame: 260, box: { left: "18%", top: "56%", width: "64%", height: "34%" } },
 ];
 
 const TEXTS = [

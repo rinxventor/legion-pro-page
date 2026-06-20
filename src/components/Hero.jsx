@@ -41,11 +41,13 @@ export default function Hero() {
         <div className="hero-left">
           <div className="hero-title-pin" ref={titleRef}>
             <h1>
-              Legion Pro 7i
+              <span className="hero-line-1">Legion Pro 7i</span>
               <br />
-              Gen 10 Intel (16&quot;)
+              <span className="hero-line-2">Gen 10 Intel (16&quot;)</span>
               <br />
-              with up to <span>RTX&nbsp;5090</span>
+              <span className="hero-line-3">
+                with up to <span className="accent">RTX&nbsp;5090</span>
+              </span>
             </h1>
           </div>
 

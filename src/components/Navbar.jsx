@@ -80,10 +80,7 @@ export default function Navbar({ theme, onToggleTheme }) {
           alt="Lenovo Logo"
           onError={hideOnError}
         />
-        <div>
-          <div className="nav-logo-text">Lenovo</div>
-          <div className="nav-logo-sub">Legion Pro 7i</div>
-        </div>
+        <div className="nav-logo-text">Legion 7i</div>
       </div>
 
       <ul className="nav-links">
